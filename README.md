@@ -1,6 +1,18 @@
 # fl-website
 
-## Project setup
+## Docker
+
+### Build in docker container
+```
+docker build -t website .
+```
+
+### Run website locally
+```
+docker run -it 8080:80 --rm --name website1 website
+```
+
+## Development Setup
 ```
 npm install
 ```
